@@ -1,0 +1,127 @@
+body {
+    background-color: #002776;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.frase_brasil {
+    width: 300px;
+    align-items: left;
+    font-size: 17px;
+    color: #eee;
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+    
+}
+.linha_separacao {
+    background-color: 	#009c3b;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0px 0px 2px 	#009c3b;
+}
+.linha_separacao2 {
+    background-color: 	#ffdf00;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0px 0px 2px 	#ffdf00;
+}
+.linha_separacao3 {
+    background-color: 	#002776;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0px 0px 2px 	#002776;
+}
+
+.caixa_historia {
+    display: flex;
+    background-color: #ffdf00;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: #002776;
+    font-family: Arial,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+
+}
+.historia_paul {
+    background-color: #ffdf00;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: #009c3b;
+    box-shadow: 0px 0px 21px #000;
+ }
+ .lugares {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffdf00;
+    justify-content: space-evenly;
+    gap: 1vw;
+    padding: 0 1vw;
+    position: relative;
+ }
+ .galeria_itens {
+    width: 320px;
+    height: 250px;
+    border: 5px solid #eee;
+    box-shadow: 5px 5px 5px #002776;
+    flex-grow: 1;
+}
+.galeria_itens img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+.nomes_locais{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;   
+    color: #eee;
+    background-color: #000;
+
+}
+.nomes_locais h2 {
+    margin: 0;
+}
+.galeria_itens:hover {
+    transform: scale(1.1);
+    filter: grayscale(100%);
+    transition: transform 0.7s linear;
+}
+.hino_nacional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #002776;
+    padding: 30px;
+    background-color: #ffdf00;
+
+}
+.texto_hino {
+    text-align: center;
+    align-items: center;
+    color: #eee;
+    font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+.copy {
+    display: flex;
+    background-color: #ffdf00;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: black;
+    background-color: #009c3b;
+    justify-content: center;
+    font-style: italic;
+}
+
+
