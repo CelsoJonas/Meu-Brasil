@@ -79,6 +79,7 @@ body {
     object-fit: cover;
 } 
 .nomes_locais{
+    visibility: hidden;
     display: flex;
     position: absolute;
     left: 10px;
@@ -89,6 +90,10 @@ body {
 }
 .nomes_locais h2 {
     margin: 0;
+    
+}
+.galeria_itens:hover .nomes_locais {
+    visibility: visible;
 }
 .galeria_itens:hover {
     transform: scale(1.1);
@@ -124,4 +129,34 @@ body {
     font-style: italic;
 }
 
-
+.img {
+    width: 500px;
+}
+@media screen  and (max-width: 768px) {
+    .container {
+        margin-left: 0;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 155px;
+        width: 100%;
+        text-align: center;
+    }
+    .title_site {
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+    }
+    .mapa_brasil {
+        width: 150px;
+        margin: auto;
+    }
+    .frase_brasil {
+        margin-top: -190px;
+        margin-left: 15%;
+    }
+    .galeria_itens {
+        width: 150px;
+        height: 150px;
+    }
+}
